@@ -1,0 +1,11 @@
+name: ItemFrameShop
+version: 1.0
+author: TheDarkSword01
+main: it.mineblock.itemframeshop.Main
+depend: [MBCore, ItemNBTAPI]
+description: Just a Shop Plugin with ItemFrame
+
+commands:
+  frameshop:
+    aliases: [fshop, frames]
+    description: Just the Main Command

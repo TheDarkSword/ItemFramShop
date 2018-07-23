@@ -1,0 +1,27 @@
+economy-enabled: false
+
+help:
+- "&e---- &6&lFrameShop &6Page 1&e----"
+- "&6/frameshop setframe <price> <name> &e- Seleziona un ItemFrame per settarlo."
+- "&6/frameshop removeframe &e- Seleziona un ItemFrame per rimuoverlo"
+- "&6/frameshop setholo <name> &e- Seleziona un ItemFrame per spawnare un Hologram"
+- "&6/frameshop removeholo <radius> &e- Rimuove tutti gli Hologram nel raggio"
+- "&6/frameshop removeholo <radius> &e- Rimuove tutti gli Hologram nel raggio"
+
+messages:
+  not-player: "&cYou are not a player!"
+  insufficient-permissions: "&cYou don't have permission {permission}"
+  number-format: "&c{notNumber} isn't a number"
+  set-frame: "&2Select an ItemFrame to add in the shop"
+  set-frame-success: "&eItemFrame added in the shop"
+  remove-frame: "&2Select an ItemFrame to remove from the shop"
+  remove-frame-success: "&eItemFrame removed from the shop"
+  set-holo: "&2Select an ItemFrame to spawn an Hologram"
+  set-holo-success: "&eHologram spawned"
+  remove-holo: "&eRemoved {holoCount} Holograms"
+  unset-frame: "&2Exited the ItemFrame selection to add them to the shop"
+  unremove-frame: "&2Exited the ItemFrame selection to remove them to the shop"
+  unset-holo: "&2Exited the Hologram selection to spawn it"
+  transaction-success: "You bought {item} at {money}$"
+  enough-money: "&cYou don't have enough money"
+  already-shop: "&cThis ItemFrame is already a shop"
